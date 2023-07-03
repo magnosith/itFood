@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F7222EA2A53760900E67158 /* MenuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7222E92A53760900E67158 /* MenuDetailViewController.swift */; };
 		3FED072F2A4E62F100EB7337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED072E2A4E62F100EB7337 /* AppDelegate.swift */; };
 		3FED07312A4E62F100EB7337 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED07302A4E62F100EB7337 /* SceneDelegate.swift */; };
 		3FED07332A4E62F100EB7337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED07322A4E62F100EB7337 /* ViewController.swift */; };
@@ -16,6 +17,15 @@
 		3FED07462A4E62F300EB7337 /* itFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED07452A4E62F300EB7337 /* itFoodTests.swift */; };
 		3FED07502A4E62F400EB7337 /* itFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED074F2A4E62F400EB7337 /* itFoodUITests.swift */; };
 		3FED07522A4E62F400EB7337 /* itFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED07512A4E62F400EB7337 /* itFoodUITestsLaunchTests.swift */; };
+		3FED076E2A4F6D4E00EB7337 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED076C2A4F6D4D00EB7337 /* CategoryTableViewCell.swift */; };
+		3FED076F2A4F6D4E00EB7337 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FED076D2A4F6D4E00EB7337 /* CategoryTableViewCell.xib */; };
+		3FED07722A4F6D9400EB7337 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED07702A4F6D9400EB7337 /* MenuTableViewCell.swift */; };
+		3FED07732A4F6D9400EB7337 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FED07712A4F6D9400EB7337 /* MenuTableViewCell.xib */; };
+		3FED07752A4F723100EB7337 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED07742A4F723100EB7337 /* Model.swift */; };
+		3FED07792A4F7A8100EB7337 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED07782A4F7A8100EB7337 /* MenuController.swift */; };
+		3FED077B2A4FE98D00EB7337 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED077A2A4FE98D00EB7337 /* CategoryViewController.swift */; };
+		3FED077D2A510EE200EB7337 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED077C2A510EE200EB7337 /* MenuViewController.swift */; };
+		3FED077F2A51145800EB7337 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED077E2A51145800EB7337 /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F7222E92A53760900E67158 /* MenuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailViewController.swift; sourceTree = "<group>"; };
 		3FED072B2A4E62F000EB7337 /* itFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FED072E2A4E62F100EB7337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FED07302A4E62F100EB7337 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,15 @@
 		3FED074B2A4E62F300EB7337 /* itFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FED074F2A4E62F400EB7337 /* itFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itFoodUITests.swift; sourceTree = "<group>"; };
 		3FED07512A4E62F400EB7337 /* itFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FED076C2A4F6D4D00EB7337 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		3FED076D2A4F6D4E00EB7337 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		3FED07702A4F6D9400EB7337 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		3FED07712A4F6D9400EB7337 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		3FED07742A4F723100EB7337 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3FED07782A4F7A8100EB7337 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		3FED077A2A4FE98D00EB7337 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		3FED077C2A510EE200EB7337 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3FED077E2A51145800EB7337 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +119,20 @@
 		3FED072D2A4E62F100EB7337 /* itFood */ = {
 			isa = PBXGroup;
 			children = (
+				3F7222E92A53760900E67158 /* MenuDetailViewController.swift */,
 				3FED072E2A4E62F100EB7337 /* AppDelegate.swift */,
 				3FED07302A4E62F100EB7337 /* SceneDelegate.swift */,
 				3FED07322A4E62F100EB7337 /* ViewController.swift */,
 				3FED07342A4E62F100EB7337 /* Main.storyboard */,
+				3FED077E2A51145800EB7337 /* OrderViewController.swift */,
+				3FED077A2A4FE98D00EB7337 /* CategoryViewController.swift */,
+				3FED076C2A4F6D4D00EB7337 /* CategoryTableViewCell.swift */,
+				3FED07702A4F6D9400EB7337 /* MenuTableViewCell.swift */,
+				3FED07712A4F6D9400EB7337 /* MenuTableViewCell.xib */,
+				3FED07742A4F723100EB7337 /* Model.swift */,
+				3FED07782A4F7A8100EB7337 /* MenuController.swift */,
+				3FED076D2A4F6D4E00EB7337 /* CategoryTableViewCell.xib */,
+				3FED077C2A510EE200EB7337 /* MenuViewController.swift */,
 				3FED07372A4E62F300EB7337 /* Assets.xcassets */,
 				3FED07392A4E62F300EB7337 /* LaunchScreen.storyboard */,
 				3FED073C2A4E62F300EB7337 /* Info.plist */,
@@ -231,6 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FED07732A4F6D9400EB7337 /* MenuTableViewCell.xib in Resources */,
+				3FED076F2A4F6D4E00EB7337 /* CategoryTableViewCell.xib in Resources */,
 				3FED073B2A4E62F300EB7337 /* LaunchScreen.storyboard in Resources */,
 				3FED07382A4E62F300EB7337 /* Assets.xcassets in Resources */,
 				3FED07362A4E62F100EB7337 /* Main.storyboard in Resources */,
@@ -258,9 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FED07752A4F723100EB7337 /* Model.swift in Sources */,
+				3FED077F2A51145800EB7337 /* OrderViewController.swift in Sources */,
 				3FED07332A4E62F100EB7337 /* ViewController.swift in Sources */,
 				3FED072F2A4E62F100EB7337 /* AppDelegate.swift in Sources */,
+				3FED07722A4F6D9400EB7337 /* MenuTableViewCell.swift in Sources */,
+				3F7222EA2A53760900E67158 /* MenuDetailViewController.swift in Sources */,
+				3FED077D2A510EE200EB7337 /* MenuViewController.swift in Sources */,
+				3FED07792A4F7A8100EB7337 /* MenuController.swift in Sources */,
 				3FED07312A4E62F100EB7337 /* SceneDelegate.swift in Sources */,
+				3FED076E2A4F6D4E00EB7337 /* CategoryTableViewCell.swift in Sources */,
+				3FED077B2A4FE98D00EB7337 /* CategoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
