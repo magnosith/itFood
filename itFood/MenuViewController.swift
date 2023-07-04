@@ -17,7 +17,8 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let category = String(categoryMenu)
+        title = category.capitalized
         
         Task.init {
             do{

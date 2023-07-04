@@ -47,7 +47,7 @@
             </objects>
             <point key="canvasLocation" x="2089.8550724637685" y="29.464285714285712"/>
         </scene>
-        <!--Menu-->
+        <!--Menu View Controller-->
         <scene sceneID="BI3-Ec-V9d">
             <objects>
                 <viewController storyboardIdentifier="MenuVC" id="ZoF-Du-n6l" customClass="MenuViewController" customModule="itFood" customModuleProvider="target" sceneMemberID="viewController">
@@ -75,7 +75,7 @@
                             <constraint firstItem="h2f-ng-hWQ" firstAttribute="trailing" secondItem="x8L-US-MF0" secondAttribute="trailing" id="pLe-u2-vDR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Menu" id="yJM-YU-1Pa"/>
+                    <navigationItem key="navigationItem" id="yJM-YU-1Pa"/>
                     <connections>
                         <outlet property="tableView" destination="x8L-US-MF0" id="Zbb-tE-fbk"/>
                         <segue destination="xRD-wh-LLm" kind="show" id="bEF-7s-yAi"/>
